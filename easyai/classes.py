@@ -12,9 +12,6 @@ from scipy import ndimage
 class MNIST(tf.keras.models.Sequential):
     """ Sequential model to classify digits from the MNIST dataset """
 
-    # TODO find a way to make a base class for models
-    #  (find a way to be make layer types an attribute so we don't have to hardcode the __init__() method)
-
     dataset = tf.keras.datasets.mnist
     default_neuron_amount = 128
     default_layer_amount = 1
@@ -65,7 +62,7 @@ class MNIST(tf.keras.models.Sequential):
         # Convert the probabilities into a final answer and return it
         return np.argmax(prediction)
 
-    # TODO DEBUG THIS AND MAKE IT WOOORK
+
     @staticmethod
     def preprocess_input(filepath):
         """

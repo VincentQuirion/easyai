@@ -9,14 +9,15 @@ setup(
                 'to interact with them for students to play with and learn about the core high level concepts of AI.',
     author='Vincent Quirion',
     author_email='vincent.quirion@icloud.com',
-    url='https://github.com/user/reponame',  # Provide either the link to your github or to your website
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',  # I explain this later on
+    url='https://github.com/VincentQuirion/easyai',
+    download_url='https://github.com/VincentQuirion/easyai/archive/v0.1.tar.gz',
     keywords=['ai', 'student', 'beginner', 'tensorflow', 'highschool', 'mnist'],
     install_requires=[
         'tensorflow',
         'numpy',
         'matplotlib',
         'opencv-python',
+        'scipy',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
