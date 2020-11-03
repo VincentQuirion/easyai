@@ -21,9 +21,9 @@ setup(
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Intended Audience :: Students',
+        'Intended Audience :: Education',
         'Topic :: Software Development :: Build Tools',
-        'License :: MIT License',
+        'License :: MIT',
         'Programming Language :: Python :: 3',
     ],
 )
